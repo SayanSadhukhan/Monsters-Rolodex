@@ -44,7 +44,8 @@ componentDidMount(){
     return(
       <div className="App">
       
-      <h1>Monsters Rolodex</h1>
+      <h1>Monsters Playground
+      </h1>
       <SearchBox 
       placeholder='Search Monsters'
       changeHandler={e =>this.setState({searchfield: e.target.value})}
